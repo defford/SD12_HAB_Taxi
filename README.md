@@ -57,16 +57,13 @@ You will be presented with a menu to navigate through the various features of th
 5. **Record Employee Payment**  
    Records payments made by employees towards their balance due.
 
-6. **Print Company Profit Listing**  
-   Generates a report of the company's profit or loss based on revenues and expenses for a specified period.
-
-7. **Print Driver Financial Listing**  
+6. **Print Driver Financial Listing**  
    Generates a financial report for a specific driver, showing all transactions within a specified period.
 
-8. **Corporate Summary Report**  
+7. **Corporate Summary Report**  
    Provides a summary report using information from the Employee, Revenue, and Expenses tables.
 
-9. **Quit Program**  
+8. **Quit Program**  
    Exits the system.
 
 ## Data Files
