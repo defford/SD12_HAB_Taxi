@@ -1,0 +1,21 @@
+001, 127, Oil Change, 50.00, 1, 50.00
+002, 127, Tire Rotation, 20.00, 4, 80.00
+003, 127, Air Filter, 20.00, 1, 20.00
+004, 128, Brake Pads, 55.00, 2, 110.00
+005, 128, Air Filter, 55.00, 2, 110.00
+006, 129, Windshield Wipers, 50.00, 6, 300.00
+007, 132, Spark Plugs, 50.00, 1, 50.00
+008, 132, Oil Filter, 25.00, 5, 125.00
+009, 133, Coolant Flush, 60.00, 1, 60.00
+010, 133, Headlights, 43.00, 5, 215.00
+011, 134, Alignment, 80.00, 2, 160.00
+012, 134, Transmission Fluid, 20.00, 1, 20.00
+013, 138, Belt Replacement, 100.00, 2, 200.00
+014, 138, Brake Fluid, 25.00, 2, 50.00
+015, 139, Cabin Air Filter, 160.00, 1, 160.00
+016, 139, Windshield Washer Fluid, 30.00, 5, 150.00
+017, 140, Fuel Filter, 10.00, 1, 10.00
+018, 140, Exhaust Repair, 130.00, 1, 130.00
+019, 141, Power Steering Fluid, 160.00, 1, 160.00
+020, 141, Transmission Fluid, 40.00, 1, 40.00
+021, 141, Coolant Flush, 60.00, 1, 60.00
