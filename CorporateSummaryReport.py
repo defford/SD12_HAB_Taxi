@@ -126,8 +126,6 @@ for expType in groupExp:
         maxExp = groupExp[expType][1]
 
 
-print(maxRevType, maxExpType)
-
 
 # Display the Report
 print()
