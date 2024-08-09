@@ -85,19 +85,18 @@ def ProgressBar(iteration, total, prefix='', suffix='', decimals=1, length=50, f
     if iteration == total:
         print()
 
-def SaveToFileBar(items, filePath, filePathAlias):
+def SaveToFileBar(message, items, filePath, filePathAlias):
     total_items = len(items)
-    prefix = 'Saving...'
     suffix = 'Complete'
     length = 50
 
     with open(filePath, "a") as filePathAlias:
         for i, item in enumerate(items, start=1):
             if i == total_items:
-                filePathAlias.write(f"{item}")
+                filePathAlias.write(f"{item}\n")
             else:
                 filePathAlias.write(f"{item}, ")
-            ProgressBar(i, total_items, prefix=prefix, suffix=suffix, length=length)
+            ProgressBar(i, total_items, prefix=message, suffix=suffix, length=length)
             time.sleep(0.1)
 
 def WaitingMessage(content, space):
