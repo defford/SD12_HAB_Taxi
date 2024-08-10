@@ -415,6 +415,61 @@ while True:
                         break
 
             main()
+        
+        elif mainMenuChoice == "3":
+            print()
+            print(f"{'//COMPANY EXPENSE ENTRY SYSTEM UNDER CONSTRUCTION//':^80}")
+            print(f"{'(Please choose 1, 7, or 8)':^80}")
+            time.sleep(0.5)
+            print()
+            WaitingMessage("Returning to Main Menu", 25)
+            time.sleep(0.5)
+            print()
+            continue
+
+        elif mainMenuChoice == "4":
+            print()
+            print(f"{'//CAR RENTAL TRACKING SYSTEM UNDER CONSTRUCTION//':^80}")
+            print(f"{'(Please choose 1, 7, or 8)':^80}")
+            time.sleep(0.5)
+            print()
+            WaitingMessage("Returning to Main Menu", 25)
+            time.sleep(0.5)
+            print()
+            continue
+
+        elif mainMenuChoice == "5":
+            print()
+            print(f"{'//RECORD EMPLOYEE PAYMENT SYSTEM UNDER CONSTRUCTION//':^80}")
+            print(f"{'(Please choose 1, 7, or 8)':^80}")
+            time.sleep(0.5)
+            print()
+            WaitingMessage("Returning to Main Menu", 25)
+            time.sleep(0.5)
+            print()
+            continue
+
+        elif mainMenuChoice == "6":
+            print()
+            print(f"{'//PROFIT REPORT GENERATOR UNDER CONSTRUCTION//':^80}")
+            print(f"{'(Please choose 1, 7, or 8)':^80}")
+            time.sleep(0.5)
+            print()
+            WaitingMessage("Returning to Main Menu", 25)
+            time.sleep(0.5)
+            print()
+            continue
+
+        elif mainMenuChoice == "2":
+            print()
+            print(f"{'//COMPANY REVENUE ENTRY SYSTEM UNDER CONSTRUCTION//':^80}")
+            print(f"{'(Please choose 1, 7, or 8)':^80}")
+            time.sleep(0.5)
+            print()
+            WaitingMessage("Returning to Main Menu", 25)
+            time.sleep(0.5)
+            print()
+            continue
 
         elif mainMenuChoice == "8":
 
