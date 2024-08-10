@@ -119,7 +119,6 @@ while True:
                         time_until_insurance_renewal = calculate_time_until_insurance_renewal(insurance_renewal_date)
 
                         # Display inputs which correspond with the Employees entries
-                        WaitingMessage(f"Adding {first_name} {last_name}", 3)
                         print()
                         print()
                         PPrint(70, ("HAB Taxi Services - New Employee Information", "center"))
@@ -221,9 +220,62 @@ while True:
                 print()
                 break
 
+        elif mainMenuChoice == "2":
+            print()
+            print(f"{'//COMPANY REVENUE ENTRY SYSTEM UNDER CONSTRUCTION//':^80}")
+            print(f"{'(Please choose 1, 7, or 8)':^80}")
+            time.sleep(0.5)
+            print()
+            WaitingMessage("Returning to Main Menu", 25)
+            time.sleep(0.5)
+            print()
+            continue
+  
+        elif mainMenuChoice == "3":
+            print()
+            print(f"{'//COMPANY EXPENSE ENTRY SYSTEM UNDER CONSTRUCTION//':^80}")
+            print(f"{'(Please choose 1, 7, or 8)':^80}")
+            time.sleep(0.5)
+            print()
+            WaitingMessage("Returning to Main Menu", 25)
+            time.sleep(0.5)
+            print()
             continue
 
-        elif mainMenuChoice == "2":
+        elif mainMenuChoice == "4":
+            print()
+            print(f"{'//CAR RENTAL TRACKING SYSTEM UNDER CONSTRUCTION//':^80}")
+            print(f"{'(Please choose 1, 7, or 8)':^80}")
+            time.sleep(0.5)
+            print()
+            WaitingMessage("Returning to Main Menu", 25)
+            time.sleep(0.5)
+            print()
+            continue
+
+        elif mainMenuChoice == "5":
+            print()
+            print(f"{'//RECORD EMPLOYEE PAYMENT SYSTEM UNDER CONSTRUCTION//':^80}")
+            print(f"{'(Please choose 1, 7, or 8)':^80}")
+            time.sleep(0.5)
+            print()
+            WaitingMessage("Returning to Main Menu", 25)
+            time.sleep(0.5)
+            print()
+            continue
+
+        elif mainMenuChoice == "6":
+            print()
+            print(f"{'//PROFIT REPORT GENERATOR UNDER CONSTRUCTION//':^80}")
+            print(f"{'(Please choose 1, 7, or 8)':^80}")
+            time.sleep(0.5)
+            print()
+            WaitingMessage("Returning to Main Menu", 25)
+            time.sleep(0.5)
+            print()
+            continue
+
+        elif mainMenuChoice == "7":
             # Description - This script reads data from a file containing revenue information for HAB Taxi Services and its drivers, then proceeds to generate financial reports for individual drivers. 
             # Author - Christian Rose (Group 6)
             # Date - August 1st 2024.  
@@ -363,61 +415,6 @@ while True:
                         break
 
             main()
-        
-        elif mainMenuChoice == "3":
-            print()
-            print(f"{'//COMPANY EXPENSE ENTRY SYSTEM UNDER CONSTRUCTION//':^80}")
-            print(f"{'(Please choose 1, 2, or 8)':^80}")
-            time.sleep(0.5)
-            print()
-            WaitingMessage("Returning to Main Menu", 25)
-            time.sleep(0.5)
-            print()
-            continue
-
-        elif mainMenuChoice == "4":
-            print()
-            print(f"{'//CAR RENTAL TRACKING SYSTEM UNDER CONSTRUCTION//':^80}")
-            print(f"{'(Please choose 1, 2, or 8)':^80}")
-            time.sleep(0.5)
-            print()
-            WaitingMessage("Returning to Main Menu", 25)
-            time.sleep(0.5)
-            print()
-            continue
-
-        elif mainMenuChoice == "5":
-            print()
-            print(f"{'//RECORD EMPLOYEE PAYMENT SYSTEM UNDER CONSTRUCTION//':^80}")
-            print(f"{'(Please choose 1, 2, or 8)':^80}")
-            time.sleep(0.5)
-            print()
-            WaitingMessage("Returning to Main Menu", 25)
-            time.sleep(0.5)
-            print()
-            continue
-
-        elif mainMenuChoice == "6":
-            print()
-            print(f"{'//PROFIT REPORT GENERATOR UNDER CONSTRUCTION//':^80}")
-            print(f"{'(Please choose 1, 2, or 8)':^80}")
-            time.sleep(0.5)
-            print()
-            WaitingMessage("Returning to Main Menu", 25)
-            time.sleep(0.5)
-            print()
-            continue
-
-        elif mainMenuChoice == "7":
-            print()
-            print(f"{'//DRIVER FINANCIAL REPORT GENERATOR UNDER CONSTRUCTION//':^80}")
-            print(f"{'(Please choose 1, 2, or 8)':^80}")
-            time.sleep(0.5)
-            print()
-            WaitingMessage("Returning to Main Menu", 25)
-            time.sleep(0.5)
-            print()
-            continue
 
         elif mainMenuChoice == "8":
 
