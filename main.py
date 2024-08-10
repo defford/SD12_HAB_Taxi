@@ -39,19 +39,15 @@ while True:
             # Loop main program until user confirms entry
             while True:
 
-                import csv
                 from datetime import datetime
-                import os
 
                 # Description: Program to add new employees to the employee database
                 # Author: Nicole Sparkes
-                # Date: 2024-08-01 to 2024-08
+                # Date: 2024-08-01 to 2024-08-08
 
                 # Function to read defaults from the defaults.dat file
                 def read_last_driver_number(file_path):
                     last_driver_number = 0  # Initialize to a default value
-                    # if not os.path.exists(file_path) or os.stat(file_path).st_size == 0:
-                    #     return last_driver_number  # If the file doesn't exist or is empty, return 0
                     with open(file_path, 'r') as file:
                         for line in file:
                             if line:
@@ -167,7 +163,7 @@ while True:
                     
                         SaveToFileBar("Saving to Employees file", [driver_number, first_name, last_name, address, city, postal_code], employees_file, "emp")
 
-                        SaveToFileBar("Saving to Driver Details file", [driver_number, license_number, license_expiry, insurance_company, policy_number, own_car_status, balance_due], driver_details_file, "dd")
+                        SaveToFileBar("Saving to Driver Details file", [driver_number, license_number, license_expiry, driver_abstract_number, insurance_company, policy_number, own_car_status, balance_due], driver_details_file, "dd")
                         
                         print()
                         time.sleep(1)
